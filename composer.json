@@ -1,0 +1,27 @@
+{
+    "name": "mohmdazizi/licensing-laravel",
+    "description": "A package for set licebnse for laravel script",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mohammad azizi",
+            "email": "aziziarmin000@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Licensing\\licensing-laravel\\": "src/"
+        },
+        "files": [
+            "./src/Helper/helper.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Licensing\\licensing-laravel\\LicensingServiceProvider"
+            ]
+        }
+    }
+}
